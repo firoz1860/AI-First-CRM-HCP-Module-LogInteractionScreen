@@ -1,0 +1,30 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(dir \"d:\\\\Genrative Ai\\\\project\\\\AI-First CRM HCP Module – LogInteractionScreen\")",
+      "Bash(mkdir -p 'd:/Genrative Ai/project/AI-First CRM HCP Module – LogInteractionScreen/backend/core' 'd:/Genrative Ai/project/AI-First CRM HCP Module – LogInteractionScreen/backend/models' 'd:/Genrative Ai/project/AI-First CRM HCP Module – LogInteractionScreen/backend/schemas' 'd:/Genrative Ai/project/AI-First CRM HCP Module – LogInteractionScreen/backend/api/routers' 'd:/Genrative Ai/project/AI-First CRM HCP Module – LogInteractionScreen/backend/agent/tools' 'd:/Genrative Ai/project/AI-First CRM HCP Module – LogInteractionScreen/backend/services' 'd:/Genrative Ai/project/AI-First CRM HCP Module – LogInteractionScreen/backend/migrations/versions' 'd:/Genrative Ai/project/AI-First CRM HCP Module – LogInteractionScreen/backend/scripts')",
+      "Bash(mkdir -p 'd:/Genrative Ai/project/AI-First CRM HCP Module – LogInteractionScreen/frontend/src/app' 'd:/Genrative Ai/project/AI-First CRM HCP Module – LogInteractionScreen/frontend/src/features/interactions' 'd:/Genrative Ai/project/AI-First CRM HCP Module – LogInteractionScreen/frontend/src/features/hcp' 'd:/Genrative Ai/project/AI-First CRM HCP Module – LogInteractionScreen/frontend/src/features/chat' 'd:/Genrative Ai/project/AI-First CRM HCP Module – LogInteractionScreen/frontend/src/features/dashboard' 'd:/Genrative Ai/project/AI-First CRM HCP Module – LogInteractionScreen/frontend/src/components/Layout' 'd:/Genrative Ai/project/AI-First CRM HCP Module – LogInteractionScreen/frontend/src/components/ui' 'd:/Genrative Ai/project/AI-First CRM HCP Module – LogInteractionScreen/frontend/src/services')",
+      "Bash(python -m venv venv)",
+      "Bash(npm install *)",
+      "Bash(powershell -Command \"Get-Content 'C:\\\\Users\\\\FIROZA~1\\\\AppData\\\\Local\\\\Temp\\\\claude\\\\d--Genrative-Ai-project-AI-First-CRM-HCP-Module---LogInteractionScreen\\\\086bdcd2-e628-4736-8d2c-c1db894eb11f\\\\tasks\\\\bgezykat8.output' -Tail 3\")",
+      "Bash(npm --version)",
+      "Bash(where.exe node *)",
+      "Read(//c/Program Files/nodejs/**)",
+      "Bash(export PATH=\"/c/Users/firoz ahmad/anaconda3:/c/Users/firoz ahmad/anaconda3/Scripts:/c/Program Files/nodejs:$PATH\")",
+      "Bash(pip install *)",
+      "Bash(export PATH=\"/c/Program Files/nodejs:$PATH\")",
+      "Bash(\"/c/Program Files/nodejs/npm.cmd\" install)",
+      "Bash(export PATH=\"/c/Users/firoz ahmad/anaconda3:/c/Users/firoz ahmad/anaconda3/Scripts:$PATH\")",
+      "Bash(python -c 'import ast; import os *)",
+      "Bash(python -c ' *)",
+      "Bash(python scripts/seed_data.py)",
+      "Bash(python -m uvicorn main:app --reload --host 0.0.0.0 --port 8000)",
+      "Bash(echo \"Backend PID: $!\")",
+      "Bash(\"/c/Program Files/nodejs/npm.cmd\" run dev)",
+      "Bash(echo \"Frontend PID: $!\")",
+      "Bash(python -c \"import urllib.request; r = urllib.request.urlopen\\('http://localhost:8000/health'\\); print\\('Backend OK:', r.read\\(\\)\\)\")",
+      "Bash(echo \"BACKEND_PID=$!\")",
+      "Bash(curl -s http://localhost:8000/health)"
+    ]
+  }
+}

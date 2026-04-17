@@ -1,0 +1,168 @@
+# ============================================================
+# AI-First CRM HCP Module — .gitignore
+# ============================================================
+
+# ─── Python / Backend ───────────────────────────────────────
+
+# Virtual environments
+venv/
+.venv/
+env/
+.env_local/
+backend/venv/
+backend/.venv/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+*.egg
+.eggs/
+
+# Pytest / testing
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+nosetests.xml
+coverage.xml
+
+# MyPy / type checkers
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Logs
+*.log
+backend/backend.log
+backend/nohup.out
+nohup.out
+
+# ─── Database ────────────────────────────────────────────────
+
+# SQLite databases (dev only — never commit)
+*.db
+*.sqlite
+*.sqlite3
+backend/hcp_crm.db
+backend/*.db
+
+# ─── Environment Variables (SECRETS — never commit) ─────────
+
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+backend/.env
+frontend/.env
+
+# Keep example templates
+!.env.example
+!backend/.env.example
+!frontend/.env.example
+
+# ─── Node.js / Frontend ──────────────────────────────────────
+
+# Dependencies
+node_modules/
+frontend/node_modules/
+.npm
+.yarn/
+
+# Build output
+frontend/dist/
+frontend/build/
+dist/
+
+# Vite
+.vite/
+frontend/.vite/
+
+# Package lock (keep package-lock.json, ignore yarn.lock if using npm)
+# yarn.lock
+
+# ─── IDE & Editors ───────────────────────────────────────────
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# JetBrains (PyCharm, WebStorm)
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# Vim / Emacs
+*.swp
+*.swo
+*~
+\#*\#
+.\#*
+
+# ─── OS Files ─────────────────────────────────────────────────
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.lnk
+
+# Linux
+*~
+
+# ─── Alembic ─────────────────────────────────────────────────
+
+# Keep migration files but ignore generated envs
+# migrations/versions/*.py  ← DO NOT ignore — commit these
+
+# ─── Testing ─────────────────────────────────────────────────
+
+.pytest_cache/
+tests/__pycache__/
+
+# ─── Security / Keys ─────────────────────────────────────────
+
+*.pem
+*.key
+*.cert
+*.p12
+*.pfx
+secrets/
+credentials/
+
+# ─── Misc ────────────────────────────────────────────────────
+
+# Temp files
+*.tmp
+*.temp
+*.bak
+*.orig
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Coverage reports
+coverage/
+lcov.info
